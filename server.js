@@ -32,6 +32,7 @@ app.use((req, res, next) => {
 const cors = require('cors');
 app.use(cors());
 // --- Rotas da API ---
+
 app.use('/products', productsRouter);
 
 // --- Rota de Teste Simples ---
